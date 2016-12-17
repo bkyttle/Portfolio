@@ -1,22 +1,37 @@
-body {
+nav{
+	height: 300px;
+	/*position: fixed;
+*/	width: 100%;
+	background-color: white;
+	top: 0px;
+	/*z-index: 2;*/
+	/*margin: 0 auto;*/
+}
+li {
 	font-family: "futura";
 }
-
-.blockcenter-bk {
-	margin: 0 auto;
-	float: none;
-    display: block;
-    width: 370px;
-}
 /***************************NAVIGATION STYLING***********************/
-.navigation-bk {
-	border: none;
+.navbar-header {
+	position: absolute;
+	align-items: center;
+}
+
+nav.sticky.fixed {
+	height: 50px;
+}
+
+.navbar-default {
+	background-color: white;
+	height: 120px;
+}
+.navigation-thingy{
 	background-color: white;
 }
+.nav .navbar{
+	align-items: center;
 
-#editorial {
-	color: red;
 }
+
 /****************************LOGO STYLING****************************/
 .logo-container{
 	text-align: center;
@@ -28,26 +43,30 @@ body {
 }
 
 
+
 /************************THUMBNAIL STYLINGS*************************/
 
-.thumbnail-bk{
-	overflow: hidden;
-	height: 250px;
+.container {
+	width: 1170px;
+	margin: 20px auto;
+	position:relative;
+	align-items: center;
 }
 
-.modal-bk{
-	width: 100%;
-	background-color: rgba(255, 255, 255, .7);
-	border-bottom: none;
-	padding-top: 50px;
+.thumbnail-box{
+	width: 30px;
+	margin: 20px auto;
+	position:relative;
+	align-items: center;
 }
-/*
+
+
 .row {
 	clear: both;
 
-}*/
+}
 
-/*.row:before {
+.row:before {
 	content: " ";
 	display: table;
 	clear: both;
@@ -59,66 +78,51 @@ body {
 	clear: both;
 
 
-}*/
+}
 
-/*.container .col {*/
+.container .col {
 	border: thin grey solid;
-	/*float:left;*/
+	float:left;
 /*    position: relative;*/
-    /*max-height: auto%;
+    max-height: auto%;
   	max-width: 26%;
-    height: auto;*/
+    height: auto;
 /*    padding-bottom: 20%;*/ /* = width for a 1:1 aspect ratio */
-   /* margin: 1%;
+    margin: 1%;
     overflow: hidden;
-    position: relative;*/
+    position: relative;
    
-/*}*/
+}
 
-/*.col img {
+.col img {
   width: auto;
   height : auto;
   max-height: 100%;
   max-width: 100%;
-}*/
+}
 /*.navbar-nav{
 	text-align: center;
 }*/
 
-/************************CAROUSEL STYLINGS*************************/
-
-.active-bk {
-	color: black;
-}
-
-.item-bk {
-	color:black;
-}
-
-.carousel-caption-bk {
-	color: #777;
-	text-shadow: none;
-}
-
 
 @media screen and (max-width: 800px) { 
-	/*.col { 
+	.col { 
 		background-color: white;
-	 }*/
+	 }
 }
 
 @media screen and (max-width: 720px) {
-	/*.col { 
+	.col { 
 		width: 90%;
 		padding-bottom: 90%;
-	 }	*/
+	 }	
 } 
 
 @media screen and (max-width: 720px) {
-	/*.container { 
+	.container { 
 		width: 90%;
 
-	 }	*/
+	 }	
 } 
 
 
